@@ -36,6 +36,8 @@ nav a {
     font-weight: bold;
     position: relative;
     transition: color 0.3s ease-in-out;
+    min-width: 8px;
+    min-height: 8px;
 }
 
 nav div {
@@ -116,10 +118,19 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
     }
     nav a {
         margin: 0.5rem;
-        padding: 20px;
+    }
+    nav div {
+        margin-right: 0rem;
+        margin: 1rem;
+    }
+    nav img {
+        margin-left: 0rem;
     }
     .avantages span {
         display: block;

@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #38B6FF;
+    background-color: #14972c;
     color: rgb(0, 0, 0);
     padding: 1rem;
 }
@@ -23,6 +23,7 @@ nav {
     justify-items: center;
     justify-content: space-between;
     flex-direction: row;
+
 }
 nav a {
     color: rgb(0, 0, 0);
@@ -68,9 +69,15 @@ main {
     margin-bottom: 1.5rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+.card a {
+    color: #083a11;
+}
+.card a:hover {
+    color: #007d17;
+}
 h2 {
     color: #000000;
-    border-bottom: 2px solid #6ac7fd;
+    border-bottom: 2px solid #14972c;
     padding-bottom: 0.3rem;
 }
 .avantages {
@@ -87,13 +94,13 @@ h2 {
     font-weight: bold;
 }
 .tarif, .zone, .horaire {
-    background-color: #dceffad4;
-    border-left: 5px solid #38B6FF;
+    background-color: #70bc7e50;
+    border-left: 5px solid #14972c;
 }
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #38B6FF;
+    background-color: #14972c;
     color: rgb(0, 0, 0);
     margin-top: 2rem;
 }
@@ -108,6 +115,7 @@ footer {
     }
     nav a {
         margin: 0.5rem;
+        padding: 20px;
     }
     .avantages span {
         display: block;
